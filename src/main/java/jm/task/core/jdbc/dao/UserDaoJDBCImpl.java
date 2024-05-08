@@ -8,10 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserDaoJDBCImpl implements UserDao {
-    public UserDaoJDBCImpl() {
-
-    }
-
     public void createUsersTable() {
         String sql = "CREATE TABLE IF NOT EXISTS users"
                 + "(id BIGSERIAL PRIMARY KEY,"
